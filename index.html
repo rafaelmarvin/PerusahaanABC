@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Car Rental - Sewa Mobil Terpercaya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-car"></i>
+                <span>ABC Car Rental</span>
+            </div>
+            <nav class="nav">
+                <a href="#showcase">Beranda</a>
+                <a href="#cars">Mobil</a>
+                <a href="#features">Layanan</a>
+                <a href="#bookings">Pemesanan</a>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Showcase Section with Slider -->
+    <section id="showcase" class="hero-showcase">
+        <div class="showcase-slider">
+            <div class="slide active" data-bg="asset/avanza.jpg">
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="hero-content">
+                            <span class="hero-badge">Terpercaya & Terjangkau</span>
+                            <h1>Sewa Mobil Mudah & Nyaman</h1>
+                            <p>Nikmati perjalanan Anda dengan armada mobil terbaik kami. Harga kompetitif, pelayanan prima, dan kenyamanan terjamin.</p>
+                            <div class="hero-buttons">
+                                <a href="#cars" class="btn btn-primary btn-large">
+                                    <i class="fas fa-car"></i>
+                                    Pilih Mobil
+                                </a>
+                                <a href="#features" class="btn btn-outline btn-large">
+                                    <i class="fas fa-info-circle"></i>
+                                    Pelajari Lebih
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide" data-bg="asset/innova.png">
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="hero-content">
+                            <span class="hero-badge">Premium Collection</span>
+                            <h1>Kenyamanan Keluarga Terjamin</h1>
+                            <p>Pilihan terbaik untuk perjalanan keluarga dengan ruang luas dan fitur keselamatan terdepan.</p>
+                            <div class="hero-buttons">
+                                <a href="#cars" class="btn btn-primary btn-large">
+                                    <i class="fas fa-users"></i>
+                                    Untuk Keluarga
+                                </a>
+                                <a href="#features" class="btn btn-outline btn-large">
+                                    <i class="fas fa-shield-alt"></i>
+                                    Keamanan
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide" data-bg="asset/hrv.jpg">
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="hero-content">
+                            <span class="hero-badge">Modern & Stylish</span>
+                            <h1>Gaya Hidup Modern Anda</h1>
+                            <p>SUV kompak dengan teknologi terdepan untuk gaya hidup aktif dan dinamis Anda.</p>
+                            <div class="hero-buttons">
+                                <a href="#cars" class="btn btn-primary btn-large">
+                                    <i class="fas fa-road"></i>
+                                    Jelajahi Kota
+                                </a>
+                                <a href="#features" class="btn btn-outline btn-large">
+                                    <i class="fas fa-cog"></i>
+                                    Teknologi
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+            <button class="slider-btn prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-btn next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <!-- Slider Indicators -->
+        <div class="slider-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="50">0</h3>
+                        <p>Armada Mobil</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="1000">0</h3>
+                        <p>Pelanggan Puas</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="25">0</h3>
+                        <p>Kota Terjangkau</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="24">0</h3>
+                        <p>Layanan 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mengapa Memilih ABC Car Rental?</h2>
+                <p>Kami memberikan pelayanan terbaik dengan berbagai keunggulan</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Asuransi Lengkap</h3>
+                    <p>Semua mobil dilengkapi asuransi comprehensive untuk keamanan perjalanan Anda</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Perawatan Berkala</h3>
+                    <p>Armada terawat dengan service rutin untuk performa optimal</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support 24/7</h3>
+                    <p>Tim customer service siap membantu Anda kapan saja</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Pembayaran Fleksibel</h3>
+                    <p>Berbagai metode pembayaran untuk kemudahan transaksi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Car Selection Section -->
+            <section id="cars" class="section">
+                <div class="section-header">
+                    <h2>
+                        <i class="fas fa-car"></i>
+                        Pilih Mobil Impian Anda
+                    </h2>
+                    <p>Berbagai pilihan mobil berkualitas dengan harga terjangkau</p>
+                </div>
+                
+                <div class="cars-grid" id="carsGrid">
+                    <!-- Cars will be dynamically loaded here -->
+                </div>
+            </section>
+
+            <!-- Customer Form Section -->
+            <section class="section">
+                <div class="form-container">
+                    <div class="section-header">
+                        <h2>
+                            <i class="fas fa-user"></i>
+                            Data Pelanggan
+                        </h2>
+                        <p>Lengkapi data Anda untuk melanjutkan pemesanan</p>
+                    </div>
+                    
+                    <form id="customerForm" class="customer-form">
+                        <div class="form-group">
+                            <label for="customerName">Nama Lengkap</label>
+                            <input type="text" id="customerName" name="customerName" placeholder="Masukkan nama lengkap Anda" required>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" id="calculateBtn" class="btn btn-primary btn-large">
+                                <i class="fas fa-calculator"></i>
+                                Hitung Total Biaya
+                            </button>
+                            <button type="button" id="saveBookingBtn" class="btn btn-success btn-large" disabled>
+                                <i class="fas fa-save"></i>
+                                Simpan Pemesanan
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Summary Section -->
+            <section class="section">
+                <div id="summaryContainer" class="summary-container" style="display: none;">
+                    <div class="section-header">
+                        <h2>
+                            <i class="fas fa-receipt"></i>
+                            Ringkasan Pemesanan
+                        </h2>
+                        <p>Detail biaya sewa mobil Anda</p>
+                    </div>
+                    <div id="summaryContent" class="summary-content">
+                        <!-- Summary will be displayed here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bookings History Section -->
+            <section id="bookings" class="section">
+                <div class="section-header">
+                    <h2>
+                        <i class="fas fa-history"></i>
+                        Riwayat Pemesanan
+                    </h2>
+                    <p>Kelola dan lihat semua pemesanan Anda</p>
+                </div>
+                <div id="bookingsContainer" class="bookings-container">
+                    <!-- Bookings will be displayed here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-car"></i>
+                        <span>ABC Car Rental</span>
+                    </div>
+                    <p>Solusi terpercaya untuk kebutuhan sewa mobil Anda dengan pelayanan terbaik dan harga kompetitif.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#cars">Sewa Mobil</a></li>
+                        <li><a href="#features">Asuransi</a></li>
+                        <li><a href="#features">Support 24/7</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +62 123 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@abccarrental.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ABC Car Rental. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <i class="fas fa-check-circle"></i>
+                <h3>Pemesanan Berhasil!</h3>
+                <p>Data pemesanan Anda telah disimpan dengan aman.</p>
+                <button class="btn btn-primary" onclick="closeSuccessModal()">
+                    <i class="fas fa-thumbs-up"></i>
+                    Terima Kasih
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
